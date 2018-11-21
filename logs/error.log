@@ -1,0 +1,334 @@
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 18
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 18
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 18
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 18
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:50:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:51:11 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:51:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:51:11 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:51:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:52:34 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:52:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:52:34 Europe/Berlin] PHP Warning:  Illegal string offset 'controller' in C:\xampp\htdocs\project_php\src\Router.php on line 19
+[20-Nov-2018 21:52:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:54:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:56:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:56:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:56:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:56:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:57:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:57:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:58:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:58:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:58:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[20-Nov-2018 21:58:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:23:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:23:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:23:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:23:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:25:10 Europe/Berlin] PHP Warning:  Use of undefined constant routes - assumed 'routes' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\public\index.php on line 14
+[21-Nov-2018 07:25:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:25:16 Europe/Berlin] PHP Warning:  Use of undefined constant routes - assumed 'routes' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\public\index.php on line 14
+[21-Nov-2018 07:25:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:25:16 Europe/Berlin] PHP Warning:  Use of undefined constant routes - assumed 'routes' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\project_php\public\index.php on line 14
+[21-Nov-2018 07:25:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:27:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:31:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:31:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:35:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:35:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:35:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:35:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'controller' not found in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:36:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:36:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 07:37:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:54:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:54:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:57:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:57:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:57:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 18:57:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 19:00:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 19:00:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 19:00:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
+[21-Nov-2018 19:00:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\project_php\src\Router.php:20
+Stack trace:
+#0 C:\xampp\htdocs\project_php\public\index.php(15): Router->validationUrl()
+#1 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 20
