@@ -38,7 +38,7 @@ class LoginController extends Controller
         $databaseConnection = new DatabaseConnection();
         $pdo = $databaseConnection->createDatebaseConnection();
         echo "hello 2";
-        var_dump($_POST["username"]);
+        var_dump($_POST["username"]);//$_POST["username"] este null
         $registerInstance = new RegisterClass($_POST["username"],$_POST["password"],$_POST["email"],$pdo);
         echo "hello 3";
         $registerInstance->register();
