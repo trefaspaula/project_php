@@ -8,6 +8,7 @@
 
 namespace Framework;
 
+use App\Config;
 use PDO;
 
 abstract class Model
@@ -17,11 +18,11 @@ abstract class Model
     public Function newDbCon($resultAsArray = false)
     {
 
-        $dsn = "$config::DB['driver']";
-        $dsn += ":host=$config::DB['host']";
-        $dsn += ";dbname=$config::DB['dbname']";
-        $dsn += ";port=$config::DB['port']";
-        $dsn += ";charset=$config::DB['charset']";
+        $dsn = Config::DB['driver'];
+        $dsn .= ":host=" . Config::DB['host'];
+        $dsn .= ";dbname=" . Config::DB['dbname'];
+        $dsn .= ";port=" . Config::DB['port'];
+        $dsn .= ";charset=" . Config::DB['charset'];
 
         $options = [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -34,7 +35,7 @@ abstract class Model
         }
 
         try {
-            return new PDO($dsn, $config['db']['user'], $config['db']['pass'], $options);
+            return new PDO($dsn, Config::DB['user'], Config::DB['pass'], $options);
         } catch (\PDOException $e) {
             throw new \PDOException($e->getMessage(), (int)$e->getCode());
         }
@@ -52,7 +53,8 @@ abstract class Model
     {
         $db = $this->newDbCon();
         $stmt = $db->prepare("SELECT * from $this->table where id=?");
-        return $stmt->execute([$id]);
+        $stmt->execute([$id]);
+        return $stmt->fetch();
     }
 
     protected function prepareDataForStmt(array $data): array
@@ -63,10 +65,10 @@ abstract class Model
         for ($i = 0; $i < count($data); $i++) {
 
             $values[] = $data[$i];
-            $columns += "key($data) = ? ";
+            $columns .= "key($data) = ? ";
             //if we are not at the last element with the iteration
             if (count($data) < ($i + 1)) {
-                $columns += "AND";
+                $columns .= "AND";
             }
         }
 
@@ -78,24 +80,58 @@ abstract class Model
         list($columns, $values) = $this->prepareDataForStmt($data);
         $db = $this->newDbCon();
         $stmt = $db->prepare("SELECT * from $this->table where $columns");
-        return $stmt->execute([$values]);
+        $stmt->execute([$values]);
+
+        return $stmt->fetch();
     }
+
+    private function prepareStmt(array $data): array
+    {
+        $i = 1;
+        $columns = '';
+        $values = [];
+        foreach ($data as $key => $value) {
+            $values[] = $value;
+            $columns .= $key . '=?';
+            if ($i < (count($data))) {
+                $columns .= ", ";
+            }
+            $i++;
+        }
+        return [$columns, $values];
+    }
+
 
     public function new(array $data)
     {
+        list($columns, $values) = $this->prepareStmt($data);
+
+        $db = $this->newDbCon();
+        $stmt = $db->prepare('INSERT INTO ' . $this->table . ' SET ' . $columns);
+
+        $stmt->execute($values);
+
+        return $db->lastInsertId();
     }
 
     public function update(array $data)
     {
+        list($columns, $values) = $this->prepareStmt($data);
+        $values[] = reset($where);
+
+        $db = $this->newDbCon();
+        $stmt = $db->prepare('UPDATE ' . $this->table . ' SET ' . $columns . ' WHERE ' . key($where) . '=?');
+
+        return $stmt->execute($values);
     }
 
     public function delete($id)
     {
+        $db = $this->newDbCon();
+        $stmt = $db->prepare('DELETE FROM ' . $this->table . ' WHERE id=?');
+
+        return $stmt->execute([$id]);
     }
-
-
-
-
 
 
 }

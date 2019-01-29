@@ -24,4 +24,15 @@ class Controller
     {
         echo $this->twig->render($viewFile, $params);
     }
+
+    private function prepareTwigEnvironmentParams()
+    {
+        $envParams['cache'] = __DIR__ . '/../storage/cache/views';
+        if (\App\Config::ENV === 'dev') {
+            $envParams['cache'] = false;
+            $envParams['debug'] = true;
+        }
+        return $envParams;
+    }
+
 }

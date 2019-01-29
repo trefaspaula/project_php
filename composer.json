@@ -6,6 +6,8 @@
     }
   },
   "require": {
-    "twig/twig": "^2.0"
+    "twig/twig": "^2.0",
+    "tracy/tracy": "^2.5",
+    "ext-pdo": "*"
   }
 }

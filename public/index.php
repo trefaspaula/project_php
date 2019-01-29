@@ -9,13 +9,23 @@ require_once "../app/routes.php";
 ini_set("error_log", __DIR__ . "/../logs/error.log");
 error_reporting(E_ALL);
 ini_set("display_errors", 0);
+Tracy\Debugger::enable(Tracy\Debugger::PRODUCTION);
 
 if ($config["env"] == "dev") {
     ini_set("display_errors", 1);
+    Tracy\Debugger::enable(Tracy\Debugger::DEVELOPMENT);
 }
 
-var_dump($_SERVER["REQUEST_URI"]);
-var_dump($_SERVER["QUERY_STRING"]);
+function bd($data)
+{
+    bdump($data);
+}
+
+function dd($data)
+{
+    dump($data);
+    die();
+}
 
 $router = new Framework\Router($routes);
-$router->classificationsUrl();
+$router->getUrlType();

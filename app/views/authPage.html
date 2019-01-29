@@ -1,22 +1,17 @@
-<head>
-    <title>
-        LOGIN
-    </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="design.auth.css" type="text/css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-</head>
-<body>
+{% set pageTitle="Library" %}
+{% extends "layout.html" %}
+{% block head %}
+{{parent()}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type ="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+{% endblock %}
+{% block content %}
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col-md-4 col-sm-4 col-xs-12">
-            <form class="form_container" action="login.php" METHOD="post">
+            <form class="form_container" action="/login/auth" METHOD="post">
                 <h1 align="center">Login</h1>
                 <div class="form-group">
                     <input type="email" class="form-control" name="email" placeholder="Email">
@@ -25,7 +20,7 @@
                     <input type="password" class="form-control" name="password" placeholder="Password">
                 </div>
                 <div class="create-account">
-                    <a href="index.view.register.php">Create new account</a>
+                    <a href="/register/">Create new account</a>
                 </div>
                 <button type="submit" class="btn btn-success btn-block">Log in</button>
             </form>
@@ -35,5 +30,5 @@
     </div>
 </div>
 
-</body>
 
+{% endblock %}

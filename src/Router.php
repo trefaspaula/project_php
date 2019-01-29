@@ -16,95 +16,88 @@ class Router
         $this->routes = $routes;
     }
 
-    function getClass(string $key)
+    function getController(string $key)
     {
-        $users = [1 => "Pavel",
-            2 => "Ion"];
         $controller = $this->routes[$key]['controller'];
-        if ($controller == 'UserController') {
-            $controller = "App\\Controllers\\$controller";
-            //$controllerObject = new $controller($users);
-        }
+        $controller = "App\\Controllers\\$controller";
+
         return $controller;
     }
 
-    function classificationsUrl()
+    function getUrlType()
     {
 
         preg_match('/\d+/', $_SERVER['REQUEST_URI'], $id);
         $queryString = $_SERVER['QUERY_STRING'];
         if ($id != null && $queryString == null) {
-            $this->validationDynamicRoutes($id[0]);
+            $this->validateDynamicRoutes($id[0]);
         } else {
-            if ($id != null && $queryString != null)
-                $this->validationQueryRoutes($queryString, $id[0]);
-
+            if ($id != null && $queryString != null) {
+                $this->validateQueryRoutes($queryString, $id[0]);
+            }
             else
-                $this->validationStaticRoutes();
+                $this->validateStaticRoutes();
+
         }
 
     }
 
-    function validationDynamicRoutes(int $id)
+    function validateDynamicRoutes(int $id)
     {
         $string = $_SERVER['REQUEST_URI'];
         $string = str_replace($id, "{id}", $string);
-
-        if (array_key_exists($string, $this->routes)) {
-            $controllerObject = $this->getClass($string);
-            $action = $this->routes[$string]['action'];
-            $this->callController($controllerObject, $action, $string);
-            //$controllerObject->{$action}($id);
-        } else {
-            echo "Invalid URL";
-        }
+        $this->validateCall($string, $id);
     }
 
-    function validationQueryRoutes(string $queryString, int $id)
+    function validateQueryRoutes(string $queryString, int $id)
     {
         $string = $_SERVER['REQUEST_URI'];
-        $string = str_replace($id, "{id}", $string);
-        if (array_key_exists($string, $this->routes)) {
-            $controllerObject = $this->getClass($string);
-
-            $action = $this->routes[$string]['action'];
-            $this->callController($controllerObject, $action, $string);
-            // $controllerObject->{$action}($id, $queryString);
-        } else {
-            echo "Invalid URL";
-        }
+        var_dump("query string");
     }
 
-    function validationStaticRoutes()
+    function validateStaticRoutes()
     {
-        if (array_key_exists($_SERVER['REQUEST_URI'], $this->routes)) {
-
-            $controllerObject = $this->getClass($_SERVER['REQUEST_URI']);
-            $action = $this->routes[$_SERVER['REQUEST_URI']]['action'];
-            $this->callController($controllerObject, $action, $_SERVER['REQUEST_URI']);
-            // $controllerObject->{$action}();
-        } else {
-            echo "Invalid URL";
-        }
+        $this->validateCall($_SERVER['REQUEST_URI'],null);
     }
 
     private function checkGuard(string $route): void
     {
         if (isset($this->routes[$route]['guard'])) {
-            $guard=$this->routes[$route]['guard'];
+            $guard = $this->routes[$route]['guard'];
             $guard = "App\\Guards\\$guard";
-            $guardObj=new $guard();
+            $guardObj = new $guard();
             $guardObj->handle();
 
         }
     }
 
-    public function callController(string $controller, string $action, string $url): void
+    public function callController(string $controller, string $action, string $url, ?int $param): void
     {
         $this->checkGuard($url);
-        $controller = "\\App\\Controllers\\" . $controller;
         $controller = new $controller;
-        $controller->{$action}();
+        if ($param == null)
+            $controller->{$action}();
+        else
+            $controller->{$action}($param);
+
+    }
+
+    /**
+     * @param $string
+     */
+    private function validateCall(string $string, ?int $id): ?string
+    {
+        if (array_key_exists($string, $this->routes)) {
+            $controllerObject = $this->getController($string);
+            $action = $this->routes[$string]['action'];
+            if ($id == null)
+                $this->callController($controllerObject, $action, $string, null);
+            else
+                $this->callController($controllerObject, $action, $string, $id);
+        } else {
+            var_dump("Invalid URL");
+        }
+        return null;
     }
 
 

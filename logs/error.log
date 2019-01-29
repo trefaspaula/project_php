@@ -2213,3 +2213,113 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
 [04-Dec-2018 21:51:18 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:19:48 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:19:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:19:48 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:19:49 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:19:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:19:49 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:34 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:34 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:35 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:35 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:40 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:20:40 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:41 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:20:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:20:41 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:30 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:30 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:31 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:31 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:38 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:24:38 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:38 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:24:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:24:39 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:16 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:107
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(57): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 107
+[11-Dec-2018 09:25:16 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:17 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:107
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(57): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 107
+[11-Dec-2018 09:25:17 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:19 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:19 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:19 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:19 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:20 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:21 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:21 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:21 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:45 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:25:45 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:37:43 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:37:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:37:43 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:37:44 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:37:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class '\App\Controllers\App\Controllers\UserController' not found in C:\xampp\htdocs\project_php\src\Router.php:106
+Stack trace:
+#0 C:\xampp\htdocs\project_php\src\Router.php(56): Framework\Router->callController('\\App\\Controller...', 'show', '/user/{id}')
+#1 C:\xampp\htdocs\project_php\src\Router.php(37): Framework\Router->validationDynamicRoutes(1)
+#2 C:\xampp\htdocs\project_php\public\index.php(21): Framework\Router->classificationsUrl()
+#3 {main}
+  thrown in C:\xampp\htdocs\project_php\src\Router.php on line 106
+[11-Dec-2018 09:37:44 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:38:16 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
+[11-Dec-2018 09:38:16 Europe/Berlin] PHP Notice:  Undefined variable: config in C:\xampp\htdocs\project_php\public\index.php on line 13
