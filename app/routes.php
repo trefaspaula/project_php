@@ -7,5 +7,8 @@ $routes = [
     '/register/'            => ['controller' => 'LoginController',
         'action'     => 'goToRegisterPage'],
     '/signin/'            => ['controller' => 'LoginController',
-        'action'     => 'register']
+        'action'     => 'register'],
+    '/user/'        =>['controller' => 'UserController',
+        'action'    =>'showUser',
+        'guard'     =>'UserGuard']
 ];

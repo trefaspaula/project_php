@@ -13,16 +13,14 @@ use Framework\Controller;
 
 class UserController extends Controller
 {
-    private $pdo;
-
-    public function __construct()
+    public function showUser()
     {
         session_start();
-        if(!isset($_SESSION ["username"])){
-            header("Location: /login");
+        if(substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)=='ro'){
+            $lan="romana";
         }
-        $databaseConnection=new DatabaseConnection();
-        $this->pdo=$databaseConnection->createDatebaseConnection();
+        else
+            $lan="engleza";
+        return $this->view('user/show.html', ["name" => $lan]);
     }
-
 }

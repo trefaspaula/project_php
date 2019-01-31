@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Paula
- * Date: 04.12.2018
- * Time: 11:48
+ * Date: 30.01.2019
+ * Time: 15:33
  */
 
 namespace App\Guards;
@@ -11,7 +11,7 @@ namespace App\Guards;
 
 use Framework\Guard;
 
-class Authenticated implements Guard
+class UserGuard implements Guard
 {
 
     public function handle(array $params = null)
@@ -21,11 +21,8 @@ class Authenticated implements Guard
             $this->reject();
     }
 
-
     public function reject()
     {
-
         header("Location:../login/");
-
     }
 }

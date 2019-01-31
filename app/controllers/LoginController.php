@@ -7,26 +7,25 @@
  */
 
 namespace App\Controllers;
-
-
-
-use App\Guards\AuthenticateClass;
-use App\Models\DatabaseConnection;
 use App\Models\RegisterClass;
+use App\Models\DatabaseConnection;
 use Framework\Controller;
-use PDO;
+
 
 class LoginController extends Controller
 {
     public function goToLoginPage() {
-        return $this->view('authPage.html',["nume"=>"paula"]);
+        session_start();
+        return $this->view('authPage.html',["error"=>$_SESSION["wrong_password_alert_message"]]);
 
     }
 
     public function goToRegisterPage(){
         return $this->view('registerPage.html',["nume"=>"paula"]);
     }
+
     public function login() {
+        var_dump($_SERVER['HTTP_ACCEPT_LANGUAGE']);
         $databaseConnection = new DatabaseConnection();
         $pdo = $databaseConnection->createDatebaseConnection();
         $authenticateInstance = new AuthenticateClass($_POST["email"],$_POST["password"],$pdo);
@@ -34,13 +33,9 @@ class LoginController extends Controller
         $authenticateInstance->redirectAuthenticationForm($response);
     }
     public function register()
-    {   echo "helo";
-        $databaseConnection = new DatabaseConnection();
+    {   $databaseConnection = new DatabaseConnection();
         $pdo = $databaseConnection->createDatebaseConnection();
-        echo "hello 2";
-        var_dump($_POST["username"]);
         $registerInstance = new RegisterClass($_POST["username"],$_POST["password"],$_POST["email"],$pdo);
-        echo "hello 3";
         $registerInstance->register();
         if ($registerInstance->register() == false) {
             $_SESSION["register_alert_message"] = "This email already exists";
